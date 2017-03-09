@@ -6,7 +6,7 @@
 
 This was one of my projects during MongoDB Skunkworks in February, 2017. It is merely a proof of concept and there are many, many things to do before it would be ready for any real use.
 
-Interested in hacking on this more? Check out the [juttle-elastic-adapter][juttle-elastic-adapter] for guidance on how to build things out further.
+Interested in hacking on this? Check out the [juttle-elastic-adapter][juttle-elastic-adapter] for guidance on how to build things out further and testing. Happy to review any pull requests, but I don't have any concrete plans to work on this project in the future.
 
 ## Usage
 
