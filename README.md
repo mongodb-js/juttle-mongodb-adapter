@@ -1,5 +1,7 @@
 # :construction: juttle-mongodb-adapter [![travis][travis_img]][travis_url] [![npm][npm_img]][npm_url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mongodb-js/juttle-mongodb-adapter.svg)](https://greenkeeper.io/)
+
 > [Juttle][juttle] adapter to read from and write to MongoDB.
 
 ## Background
