@@ -1,0 +1,2 @@
+read mongodb -ns 'vega.airports'
+| view table

@@ -1,0 +1,10 @@
+sub add_juttle(name, description) {
+    put program="[${name}](/?path=/${name}.juttle)", description=description
+}
+
+emit |
+    ( add_juttle -name "import-airports" -description 'import a remote csv into mongodb';
+      add_juttle -name "read-airports" -description 'a table view of airports from mongodb';
+      add_juttle -name "npm_download_counts" -description 'View NPM download counts over time')
+    | keep program, description
+    | view table -title "Cuttle: Skunkworks 2017" -markdownFields ['program']

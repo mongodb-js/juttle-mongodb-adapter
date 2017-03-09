@@ -1,0 +1,3 @@
+read http -url 'https://vega.github.io/vega-datasets/data/airports.csv' -format 'csv'
+| put _id=iata
+| write mongodb -ns 'vega.airports'

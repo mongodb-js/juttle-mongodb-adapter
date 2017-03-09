@@ -1,0 +1,33 @@
+{
+  "name": "juttle-mongodb-adapter",
+  "description": "Juttle adapter for MongoDB",
+  "version": "0.0.0",
+  "scripts": {
+    "fmt": "mongodb-js-fmt",
+    "check": "mongodb-js-precommit",
+    "test": "mocha",
+    "ci": "npm run check && npm test"
+  },
+  "homepage": "http://github.com/mongodb-js/juttle-mongodb-adapter",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mongodb-js/juttle-mongodb-adapter.git"
+  },
+  "bugs": {
+    "url": "git://github.com/mongodb-js/juttle-mongodb-adapter.git/issues"
+  },
+  "dependencies": {
+    "debug": "^2.6.0",
+    "lodash": "^4.17.4",
+    "mongodb-ns": "^1.0.3",
+    "pify": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint-config-mongodb-js": "^2.2.0",
+    "mocha": "^2.3.4",
+    "mongodb-js-fmt": "^0.0.3",
+    "mongodb-js-precommit": "^0.2.8"
+  },
+  "license": "Apache-2.0",
+  "juttleAdapterAPI": "^0.7.0"
+}

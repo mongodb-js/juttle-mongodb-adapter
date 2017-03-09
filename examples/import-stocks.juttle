@@ -1,0 +1,2 @@
+read http -url 'https://vega.github.io/vega-datasets/data/stocks.csv' -format 'csv'
+| write mongodb -ns 'vega.stocks'
